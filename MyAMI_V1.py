@@ -378,7 +378,7 @@ if (INTERACTIVE != 0):
     OUTPUTFILE.write('pKSO4 parameters:\n')
     OUTPUTFILE.write(str(params_KSO4[0])+'\n'+'\n')
     
-    OUTPUTFILE.close("") # you can omit in most cases as the destructor will call if
+    OUTPUTFILE.close() # you can omit in most cases as the destructor will call if
 
 
 
